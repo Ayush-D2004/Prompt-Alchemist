@@ -10,10 +10,10 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Optional templates by model type
 TEMPLATES = {
-    "text": "Elaborate the prompt for a text generation model with full context, structure, and desired tone.",
-    "image": "Expand the prompt with rich visual cues, including style, environment, lighting, and perspective.",
-    "video": "Enhance the prompt for a video generation AI with scene flow, camera angles, emotional tone, and pacing.",
-    "code": "Turn this into a complete coding prompt with language, function, input/output format, constraints, and examples."
+    "text": "Elaborate the prompt for a text generation model with full context, structure, and desired tone. Always be specific and avoid ambiguity.",
+    "image": "Expand the prompt with rich visual cues, including style, environment, lighting, and perspective. Always be specific and avoid ambiguity.",
+    "video": "Enhance the prompt for a video generation AI with scene flow, camera angles, emotional tone, and pacing. Always be specific and avoid ambiguity.",
+    "code": "Turn this into a complete coding prompt with language, function, input/output format, constraints, and examples. Always be specific and avoid ambiguity."
 }
 
 def enhance_prompt(user_prompt, target_model="text"):
