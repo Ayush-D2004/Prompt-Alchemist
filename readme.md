@@ -5,10 +5,9 @@ This project is designed to enhance prompts using AI models. It provides a user-
 
 ## Features
 - Enhance text, image, video, and code prompts
-- User-friendly UI built with Streamlit
-- Copy, retry, like, and dislike functionalities for enhanced prompts
+- User-friendly UI built with V0.dev - a super classy vibe coding platform a must visit platform for dev (https://v0.dev)
+
+## Check out the web app here
+- The web app has been deployed on vercel , here's the link to it : https://v0-web-app-enhancements-alpha.vercel.app
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/prompt-enhancer.git
